@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <meta name="title" content="Harriet Horobin-Worley">
+        <meta name="description" content="a portfolio website for creative software engineer Harriet HW">
+
+        <title>Harriet HW</title>
+
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./carousel.css">
+        <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <div class="header__logo"></div>
+            <div class="header__title">
+                <h1>harriet horobin-worley</h1>
+                <h2>creative software engineer and artist</h2>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./cv.html" class="nav--blue">cv</a>
+                </li>
+                <li>
+                    <a href="/" class="nav--orange">things</a>
+                </li>
+                <li>
+                    <a href="./contact.html" class="nav--green">contact</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <div class="things__intro">
+                <p>I make interactive art, tools and apps that aim to delight and inspire people.</p>
+                <p>If you'd like to collaborate on a project, please get in touch :)</p>
+            </div>
+            <section>
+                <h3 class="things__header">current projects</h3>
+                <ul>
+                    <li class="things__item">
+                        <img src="./assets/qtb.png" alt="a screenshot of a website with the heading Queer Tech Bristol and a couple of event listings beneath it"/>
+                        <h4>Queer Tech Bristol</h4>
+                        <h5>community event</h5>
+                        <p>I'm co-running a monthly meetup for queers who work with technology. </p>
+                        <p>We want to make space for radical, empowering and nurturing conversation (and also just chilling out and chatting).</p>
+                        <p>
+                            <a href="https://www.queertechbristol.com">find out more</a>
+                        </p>
+                    </li>
+                </ul>
+                <h3 class="things__header">past interactives</h3>
+                <ul>
+                    <li class="things__item">
+                        <img src="./assets/stories.png" alt="three screenshots showing text, a circle and then direction arrows, with the title 'Stories in Movement' and green accents." >
+                        <h4>Stories in Movement</h4>
+                        <h5>React Web App</h5>
+                        <p>I built this audio web experience for artist Matilde Gouin, as part of the Festival of Emergence 2021.</p>
+                        <p>The user is invited to take a walk (either literally or metaphorically) while they listen to a curated audioscape. The piece included location tracking for the artist to use the waypaths created by users.</p>
+                        <p>
+                            <a href="https://stories-in-movement.herokuapp.com/">find it here</a>
+                        </p>
+                    </li>
+                    <li class="things__item">
+                        <section class="carousel" aria-label="Gallery">
+                            <ol class="carousel__viewport">
+                                <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                                    <img alt="Screenshots of a low poly colourful room, with cartoon clouds and monsters" src="./assets/escapeBed.png"/>
+                                    <div class="carousel__snapper"></div>
+                                </li>
+                                <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                                    <img alt="Screenshots of a low poly colourful room, with cartoon clouds and monsters" src="./assets/escapeBed_2.png"/>
+                                    <div class="carousel__snapper"></div>
+                                </li>
+                                <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                                    <img alt="Screenshots of a low poly colourful room, with cartoon clouds and monsters" src="./assets/escapeBed_3.png"/>
+                                    <div class="carousel__snapper"></div>
+                                </li>
+                            </ol>
+                        </section>
+                        <div>
+                            <h4>Escape Bed</h4>
+                            <h5>Oculus Go VR</h5>
+                            <p>Sometimes it's really difficult to get out of bed in the morning… <em>Escape Bed</em> is part point-and-click adventure, part child-like exploration of the liminal space between dreaming and awake. Explore, prod and poke this colourful little vignette until you are ready to throw back the duvet and begin your day.</p>
+                            <p>Exhibited at Open City Docs September 2019. Made in Unity for the Oculus Go, this is my second solo VR piece. I learnt a great deal about 3D modelling and crafting an experience without relying (too much) on words to tell a story.</p>
+                            <p>Unfortunately it's not possible to play this at the moment because the hardware and software is out of date :( </p>
+                        </div>
+                    </li>
+                    <li class="things__item">
+                        <div>
+                            <section class="carousel" aria-label="Gallery">
+                                <ol class="carousel__viewport">
+                                    <li id="day__slide1"tabindex="0"class="carousel__slide">
+                                        <img alt="Screenshots of flowers and illustrations about taking the day off work" src="./assets/dayOff_2.png"/>
+                                        <div class="carousel__snapper"></div>
+                                    </li>
+                                    <li id="day__slide2"tabindex="0"class="carousel__slide">
+                                        <img alt="Screenshots of flowers and illustrations about taking the day off work" src="./assets/dayOff_3.png"/>
+                                        <div class="carousel__snapper"></div>
+                                    </li>
+                                    <li id="day__slide3"tabindex="0" class="carousel__slide">
+                                        <img alt="Screenshots of flowers and illustrations about taking the day off work" src="./assets/dayOff_4.png"/>
+                                        <div class="carousel__snapper"></div>
+                                    </li>
+                                </ol>
+                            </section>
+                            <h4>Day Off</h4>
+                            <h5>Unity - Web App</h5>
+                            <p>An interactive picture book about taking the day off</p>
+                            <p>
+                                <a href="https://harriethw.itch.io/day-off">find it on itch.io</a>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <div class="footer__wrapper">
+                <p>this website is on <a href="https://github.com/Harriethw/">github</a>
+                </p>
+                <p>it's <a href="https://www.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website.html">"low tech"</a> to reduce my carbon footprint </p>
+                <p>all images have been dithered to make it faster to load using <a href="https://ditherit.com/">www.ditherit.com</a>
+                </p>
+                <p>you can reach out to <a href="https://twitter.com/HarrietHW">harrietHW</a> for more info </p>
+            </div>
+        </footer>
+    </body>
+</html>
