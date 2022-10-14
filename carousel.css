@@ -155,7 +155,7 @@
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
-    background-color: rgb(254, 230, 72);
+    background-color: darkgrey;
     background-clip: content-box;
     border: 0.25rem solid transparent;
     border-radius: 50%;
