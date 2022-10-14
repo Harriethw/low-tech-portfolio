@@ -55,13 +55,6 @@ body {
   letter-spacing: 0.05em;
 }
 
-.cv__divider {
-  border-radius: 1em;
-  width: 100%;
-  height: 1em;
-  background-color: var(--cv);
-}
-
 .cv__item {
   padding: 1.5em;
   background-color: var(--white);
@@ -112,7 +105,7 @@ body {
 
 footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: 8em;
   margin-bottom: -4em;
   margin-left: -2em;
@@ -241,6 +234,10 @@ p {
   font-weight: 300;
 }
 
+.secret {
+  display: none;
+}
+
 .things__header {
   color: white;
   padding-top: 1em;
@@ -267,6 +264,51 @@ ul {
 
 /* desktop */
 @media screen and (min-width: 1025px) {
+  .secret {
+    cursor: crosshair;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+  }
+
+  #secret--1 {
+    left: 100px;
+  }
+
+  #secret--2 {
+    top: 200px;
+    right: 250px;
+  }
+
+  #secret--3 {
+    top: 600px;
+    left: 100px;
+  }
+
+  #secret--4 {
+    width: 100px;
+    height: 100px;
+    align-self: flex-end;
+  }
+  
+  #secret--1:hover p:after {
+    content: "you";
+  }
+  
+  #secret--2:hover p:after {
+    content: "are";
+  }
+  
+  #secret--3:hover p:after {
+    content: "beautiful";
+  }
+
+  #secret--4:hover p:after {
+    content: "✨";
+  }
+
   section {
     min-width: 40vw;
     max-width: 50vw;
