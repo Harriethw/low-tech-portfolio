@@ -11,6 +11,7 @@
 }
 
 body {
+  background-color: antiquewhite;
   color: var(--text);
   font-family: Sans-Serif;
   margin: 2em;
