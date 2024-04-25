@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: antiquewhite;
+  background-color: #fffbf7;
   color: var(--text);
   font-family: Sans-Serif;
   margin: 2em;
@@ -256,6 +256,9 @@ p {
 .things__item {
   padding-top: 2em;
   padding-bottom: 2em;
+  img {
+    max-height: 500px;
+  }
 }
 
 ul {
@@ -293,15 +296,15 @@ ul {
     height: 100px;
     align-self: flex-end;
   }
-  
+
   #secret--1:hover p:after {
     content: "you";
   }
-  
+
   #secret--2:hover p:after {
     content: "are";
   }
-  
+
   #secret--3:hover p:after {
     content: "beautiful";
   }
