@@ -55,7 +55,42 @@
                 <h3 class="things__header">current projects</h3>
                 <ul>
                     <li class="things__item">
-                        <img src="./assets/garden.png" alt="a pixelated close up of a pink rose with green sunflower branches in the background"/>
+                        <section id="carousel__garden" class="carousel" aria-label="Gallery">
+                            <ol class="carousel__viewport">
+                                <li id="garden__slide1"  class="carousel__slide">
+                                    <img alt="a pixelated close up of a pink rose with green sunflower branches in the background" src="./assets/garden.png"/>
+                                    <div class="carousel__snapper"></div>
+                                </li>
+                                <li id="garden__slide2" class="carousel__slide">
+                                    <img alt="a top-down view of a raspberry pi in a handcrafted box, next to a plant and a bit of a QR code on a piece of paper, on a table" src="./assets/garden_1.webp"/>
+                                    <div class="carousel__snapper"></div>
+                                </li>
+                                <li id="garden__slide3" class="carousel__slide">
+                                    <img alt="A a well-lit white room with laptops on a table and plants, showing how my exhibition of the poem garden was setup" src="./assets/garden_2.webp"/>
+                                    <div class="carousel__snapper"></div>
+                                </li>
+                                <li id="garden__slide4" class="carousel__slide">
+                                    <img alt="A top-down view of several zines with the title DIY server" src="./assets/garden_3.webp"/>
+                                    <div class="carousel__snapper"></div>
+                                </li>
+                            </ol>
+                            <aside aria-labelledby="carousel__garden" class="carousel__navigation">
+                                <ol class="carousel__navigation-list">
+                                    <li class="carousel__navigation-item">
+                                        <a href="#garden__slide1" class="carousel__navigation-button">Go to slide 1</a>
+                                    </li>
+                                    <li class="carousel__navigation-item">
+                                        <a href="#garden__slide2" class="carousel__navigation-button">Go to slide 2</a>
+                                    </li>
+                                    <li class="carousel__navigation-item">
+                                        <a href="#garden__slide3" class="carousel__navigation-button">Go to slide 3</a>
+                                    </li>
+                                    <li class="carousel__navigation-item">
+                                        <a href="#garden__slide4" class="carousel__navigation-button">Go to slide 4</a>
+                                    </li>
+                                </ol>
+                            </aside>
+                        </section>
                         <h4>www.poem.garden</h4>
                         <h5>art project</h5>
                         <p>Can a website be a garden? This was the question I set out to answer during a month-long artists residency with Container Magaziner and <a href="https://www.control-shift.network/">Control Shift</a>.</p>
