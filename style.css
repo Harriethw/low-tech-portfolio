@@ -1,8 +1,8 @@
 :root {
-  --logo: orange;
-  --cv: #4a5af2;
-  --things: rgba(239, 94, 42, 0.941);
-  --contact: rgb(73, 151, 73);
+  --logo: #5f5f5f;
+  --cv: #000105;
+  --things: #3c3c3c;
+  --contact: #5f5f5f;
   --pink: #eb8dd6;
   --blue: #3399ff;
   --lightPink: #ffb6c1;
@@ -112,11 +112,11 @@ footer {
   margin-left: -2em;
   margin-right: -2em;
   padding: 2em 0rem 2em 6em;
-  border-top: 10px solid hsl(36, 89%, 79%);
+  border-top: 10px solid hsl(60, 1%, 84%);
   border-top-left-radius: 10em;
   border-top-right-radius: 10em;
-  box-shadow: 0 -10px 0 0px hsl(46, 99%, 50%), 0 -20px 0 0px hsl(15, 85%, 60%),
-    0 -30px 0 0px hsl(0, 85%, 60%), 0 -40px 0 0px hsl(0, 99%, 48%);
+  box-shadow: 0 -10px 0 0px hsl(60, 0%, 60%), 0 -20px 0 0px hsl(0, 0%, 35%),
+    0 -30px 0 0px hsl(0, 0%, 19%), 0 -40px 0 0px hsl(0, 0%, 3%);
 }
 
 .footer__wrapper {
@@ -204,7 +204,7 @@ nav ul {
 }
 
 nav a {
-  padding: 1.5em;
+  padding: 1em;
   border-radius: 3em;
   color: var(--text);
   font-size: large;
@@ -278,6 +278,10 @@ ul {
 
 /* desktop */
 @media screen and (min-width: 1025px) {
+  nav a {
+    padding: 1.5em;
+  }
+
   .secret {
     cursor: crosshair;
     display: block;
