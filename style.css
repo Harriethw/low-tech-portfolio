@@ -1,6 +1,6 @@
 :root {
   --logo: orange;
-  --cv: #586af1;
+  --cv: #4a5af2;
   --things: rgba(239, 94, 42, 0.941);
   --contact: rgb(73, 151, 73);
   --pink: #eb8dd6;
@@ -131,14 +131,14 @@ header {
 }
 
 .header__logo {
-  width: 100px;
-  height: 100px;
-  background: var(--logo);
+  width: 75px;
+  height: 75px;
+  border: var(--logo) solid 20px;
   border-radius: 40%;
   margin: 1em;
   transform: rotate(10deg);
   transition: all 3s ease-in-out 0.3s;
-  box-shadow: 30px -10px 0 0px hsl(46, 99%, 50%);
+  box-shadow: 20px 0px 0 0px hsl(46, 99%, 50%);
 }
 
 .header__logo:hover {
@@ -153,7 +153,7 @@ header {
 
 h2 {
   margin: 1em 0 1em 0;
-  color: darkgrey;
+  color: #a9a9a9;
 }
 
 h3 {
@@ -186,8 +186,8 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 3em;
-  margin-bottom: 3em;
+  margin-top: 2em;
+  margin-bottom: 3.5em;
 }
 
 nav a {
@@ -204,25 +204,35 @@ nav ul {
 }
 
 nav a {
-  padding: 2em;
-  border-radius: 4em;
-  color: white;
+  padding: 1.5em;
+  border-radius: 3em;
+  color: var(--text);
   font-size: large;
+  letter-spacing: 0.1em;
 }
 
 nav a:hover {
   background: none;
+  padding-bottom: 3em;
   color: var(--text);
 }
 
+.nav--selected {
+  padding-bottom: 3em;
+}
+
 .nav--blue {
-  background: var(--cv);
+  /* background: var(--cv); */
+  border: var(--cv) solid 15px;
+  border-color: var(--cv);
 }
 .nav--orange {
-  background: var(--things);
+  border: var(--things) solid 15px;
+  border-color: var(--things);
 }
 .nav--green {
-  background: var(--contact);
+  border: var(--contact) solid 15px;
+  border-color: var(--contact);
 }
 
 ol {
