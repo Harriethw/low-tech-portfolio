@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #fffbf7;
+  background-color: var(--white);
   color: var(--text);
   font-family: Sans-Serif;
   margin: 2em;
