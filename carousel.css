@@ -141,7 +141,7 @@ li {
   height: 1.5rem;
   background-color: #586af1;
   background-clip: content-box;
-  border: 0.25rem solid transparent;
+  border: 0.2rem solid white;
   border-radius: 50%;
   font-size: 0;
   transition: transform 0.1s;
