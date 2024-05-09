@@ -43,29 +43,6 @@
   }
 }
 
-* {
-  box-sizing: border-box;
-  scrollbar-color: transparent transparent; /* thumb and track color */
-  scrollbar-width: 0px;
-}
-
-*::-webkit-scrollbar {
-  width: 0;
-}
-
-*::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-*::-webkit-scrollbar-thumb {
-  background: transparent;
-  border: none;
-}
-
-* {
-  -ms-overflow-style: none;
-}
-
 ol,
 li {
   list-style: none;
@@ -77,6 +54,22 @@ li {
   position: relative;
   padding-top: 65%;
   perspective: 100px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: 0px;
+  *::-webkit-scrollbar {
+    width: 0;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+  }
 }
 
 .carousel__viewport {
@@ -97,6 +90,7 @@ li {
   flex: 0 0 100%;
   width: 100%;
   counter-increment: item;
+  scroll-behavior: smooth;
 }
 
 .carousel__slide:before {
@@ -115,19 +109,6 @@ li {
   width: 100%;
   height: 100%;
   scroll-snap-align: center;
-}
-
-@media (hover: hover) {
-  .carousel__snapper {
-    animation-name: tonext, snap;
-    animation-timing-function: ease;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-  }
-
-  .carousel__slide:last-child .carousel__snapper {
-    animation-iteration-count: 1;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -158,7 +139,7 @@ li {
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
-  background-color: darkgrey;
+  background-color: #586af1;
   background-clip: content-box;
   border: 0.25rem solid transparent;
   border-radius: 50%;
