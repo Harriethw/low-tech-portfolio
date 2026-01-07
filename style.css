@@ -251,9 +251,7 @@ p {
 
 .things__header {
   color: white;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  padding: 1em;
   background-color: var(--things);
   border-radius: 2em;
 }
@@ -334,6 +332,20 @@ section {
 
   section {
     min-width: 30vw;
-    max-width: 40vw;
+    max-width: 70vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .things__ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .things__item {
+    max-width: 45%;
+    height: fit-content;
   }
 }
