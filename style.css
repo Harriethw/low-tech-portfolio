@@ -276,6 +276,11 @@ ul {
   padding-inline-start: 0;
 }
 
+section {
+  min-width: 60vw;
+  max-width: 80vw;
+}
+
 /* desktop */
 @media screen and (min-width: 1025px) {
   nav a {
