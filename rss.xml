@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+    <title>RSS FEED TITLE</title>
+    <link>https://harriethw.com</link>
+    <description>Thoughts and essays on digital culture</description>
+
+    <item>
+        <title>The life I always longed for</title>
+        <link>https://harriethw.com/blog.html#the-life-i-always-wanted</link>
+        <description>A meme makes me think about the importance of yearning</description>
+    </item>
+
+    </channel>
+</rss>
