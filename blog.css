@@ -5,6 +5,11 @@ article {
     margin-bottom: 3em;
 }
 
+.blog__list {
+  width: 100%;
+  margin-bottom: 6em;
+}
+
 .blog__image {
     display: flex;
     flex-direction: column;
@@ -37,6 +42,10 @@ article {
 @media screen and (min-width: 1025px) {
     article {
         max-width: 600px;
+    }
+
+    .blog__list {
+     max-width: 600px;
     }
 
     .blog__image {
