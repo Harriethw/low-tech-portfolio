@@ -2,11 +2,49 @@ article {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 3em;
+}
+
+.blog__image {
+    display: flex;
+    flex-direction: column;
+    img {
+        border-radius: 1em;
+        width: fit-content;
+        max-height: 20em;
+    }
+    figcaption {
+        font-size: 0.7em;
+        text-align: center;
+    }
+}
+
+.blog__nav {
+    display: flex;
+    margin: 0.5em;
+    flex-direction: column;
+}
+
+.blog__nav--link {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 1em;
 }
 
 /* desktop */
 @media screen and (min-width: 1025px) {
     article {
         max-width: 600px;
+    }
+
+    .blog__image {
+        display: flex;
+        flex-direction: row;
+        column-gap: 1em;
+        p {
+            text-align: justify;
+        }
     }
  }
