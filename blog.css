@@ -38,6 +38,11 @@ article {
     margin-bottom: 1em;
 }
 
+.blog__rss_link {
+    display: flex;
+    justify-content: center;
+}
+
 /* desktop */
 @media screen and (min-width: 1025px) {
     article {
