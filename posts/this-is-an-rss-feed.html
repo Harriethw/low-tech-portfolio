@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <meta name="title" content="Harriet Horobin-Worley">
+  <meta name="description" content="a portfolio website for creative software engineer Harriet HW">
+
+  <title>Harriet HW</title>
+
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../blog.css">
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/rss.xml">
+
+</head>
+<body>
+  <header>
+    <div class="header__title">
+      <h1>harriet horobin-worley</h1>
+      <h2>creative software engineer and artist</h2>
+    </div>
+  </header>
+  <nav class="blog__nav">
+    <ul>
+      <li>
+        <a href="../blog.html" class="blog__nav--link">
+          &lt;-- back to blog posts</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <hr>
+
+    <article>
+      <h3 id='this-is-an-rss-feed'>This is a handmade RSS feed</h3>
+      <p>I have mostly "hand rolled" this site using no LLM's and no javascript. 
+      There are downsides to this - copy/pasting the meta data and header/footer etc. for any individual page, writing out 
+      HTML elements any time I want to post something new. But the downsides are far out weighed by the upsides - no endless package updates, 
+      no need to download or run anything to make it work, you just open a file and there it is. 
+      Plus modern IDE's and keyboard shortcuts make editing files super easy.</p>
+      <p>So when I wanted to add some blog type writing and essays, I was really
+      intrigued to find solutions that I could hand crank myself. I did not want to use a platform like
+      Substack, 
+      <a href="https://www.theguardian.com/media/2026/feb/07/revealed-how-substack-makes-money-from-hosting-nazi-newsletters">which profits from nazis</a>, 
+      or to have to host a database. There are fantastic
+      indie and open source solutions out there, like <a href="https://bearblog.dev/">Bear blog</a> and <a href="https://ghost.org/">Ghost</a>,
+       and I've used <a href="https://decapcms.org/">decap</a> for
+      <a href="https://machinestreams.example.com">Machine Streams</a> before, 
+      for which I hosted a <a href="https://github.com/Harriethw/netlify-cms-github-oauth-provider">2fa solution</a> 
+      so that I didn't have to use Netlify. But I still wanted something a little more old school and easy.</p>
+      <p>Then I found the amazing artist Everest Pipkin's post about 
+      <a href="https://everest-pipkin.com/teaching/handmadeRSS">how to handwrite an RSS feed.</a>
+      </p>
+      <p>In their article, they show how you can setup an RSS feed using just two simple files. 
+      It's easy, it's stable and it just works. Ok, I won't be able to get usage stats, hardly anyone
+      uses RSS anymore and it won't get boosted by any algorithms, but that's fine! I am not the 
+      next Cory Doctorow. And I can post on social media myself if I want to. And in the mean time, I've learnt
+       something new.</p>
+    </article>
+  </main>
+  <aside>
+    <a type='application/rss+xml' title='RSS Feed' href='../rss.xml' target="_blank">Link to RSS feed</a>
+  </aside>
+</body>
+</html>

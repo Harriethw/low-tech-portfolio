@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-    <title>RSS FEED TITLE</title>
+    <title>Haz HW</title>
     <link>https://harriethw.com</link>
     <description>Thoughts and essays on digital culture</description>
 
@@ -9,6 +9,12 @@
         <title>The life I always longed for</title>
         <link>https://harriethw.com/posts/the-life-i-longed-for.html</link>
         <description>A meme makes me think about the importance of yearning</description>
+    </item>
+
+    <item>
+        <title>This is a handwritten RSS feed</title>
+        <link>https://harriethw.com/posts/this-is-an-rss-feed.html</link>
+        <description>Why I've done this</description>
     </item>
 
     </channel>
