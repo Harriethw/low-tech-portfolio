@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-    <title>Haz HW</title>
+    <title>Haz Horobin-Worley</title>
     <link>https://harriethw.com</link>
     <description>Thoughts and essays on digital culture</description>
 
@@ -14,7 +14,7 @@
     <item>
         <title>This is a handwritten RSS feed</title>
         <link>https://harriethw.com/posts/this-is-an-rss-feed.html</link>
-        <description>Why I've done this</description>
+        <description>Why I've made something super cool and how you can too!</description>
     </item>
 
     </channel>
