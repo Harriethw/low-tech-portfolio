@@ -6,15 +6,21 @@
     <description>Thoughts and essays on digital culture</description>
 
     <item>
+        <title>This is a handwritten RSS feed</title>
+        <link>https://harriethw.com/posts/this-is-an-rss-feed.html</link>
+        <description>Why I've made something super cool and how you can too!</description>
+    </item>
+
+    <item>
         <title>The life I always longed for</title>
         <link>https://harriethw.com/posts/the-life-i-longed-for.html</link>
         <description>A meme makes me think about the importance of yearning</description>
     </item>
 
     <item>
-        <title>This is a handwritten RSS feed</title>
-        <link>https://harriethw.com/posts/this-is-an-rss-feed.html</link>
-        <description>Why I've made something super cool and how you can too!</description>
+        <title>Slime versus real life</title>
+        <link>https://harriethw.com/posts/getting-slimed.html</link>
+        <description>In which I try to de-slime my life</description>
     </item>
 
     </channel>
