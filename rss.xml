@@ -6,9 +6,9 @@
     <description>Thoughts and essays on digital culture</description>
 
     <item>
-        <title>This is a handwritten RSS feed</title>
-        <link>https://harriethw.com/posts/this-is-an-rss-feed.html</link>
-        <description>Why I've made something super cool and how you can too!</description>
+        <title>Slime versus real life</title>
+        <link>https://harriethw.com/posts/getting-slimed.html</link>
+        <description>In which I try to de-slime my life</description>
     </item>
 
     <item>
@@ -18,9 +18,9 @@
     </item>
 
     <item>
-        <title>Slime versus real life</title>
-        <link>https://harriethw.com/posts/getting-slimed.html</link>
-        <description>In which I try to de-slime my life</description>
+        <title>This is a handwritten RSS feed</title>
+        <link>https://harriethw.com/posts/this-is-an-rss-feed.html</link>
+        <description>Why I've made something super cool and how you can too!</description>
     </item>
 
     </channel>
