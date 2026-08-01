@@ -24,6 +24,31 @@ article {
     }
 }
 
+.blog__quote {
+    margin-bottom: 2em;
+    display: flex;
+    padding: 1em;
+}
+
+.blog__video_text {
+    display: grid;
+    video,img {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    p {
+        border-radius: 1em;
+        font-size: larger;
+        grid-column: 1;
+        grid-row: 1;
+        z-index: 1;
+        margin: 2em;
+        padding: 0.5em;
+        height: fit-content;
+        background-color:rgba(250, 250, 250, 0.9)
+    }
+}
+
 .blog__nav {
     display: flex;
     margin: 0.5em;
