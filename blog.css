@@ -8,6 +8,10 @@ article {
 .blog__list {
   width: 100%;
   margin-bottom: 6em;
+
+  li {
+    margin: 2em 0 4em 0;
+  }
 }
 
 .blog__image {
